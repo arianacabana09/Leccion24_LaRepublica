@@ -4,6 +4,7 @@ body{
   padding: 0;
 }
 
+/*header y nav*/
 header{
   position:fixed;
   background-color: rgb(241, 19, 19);
@@ -11,14 +12,21 @@ header{
   text-align: center;
 }
 
-.logo-box, .redes, .buscar{
+/*contenedores principales del header*/
+.logo-box,
+.redes,
+.buscar{
   display: inline-block;
   position: relative;
-  left: -100px;
+  left: -50px;
+  top: 25px;
 }
 
+/*iconos de redes*/
 .item-i{
   display: inline-block;
+  position: relative;
+  left: 100px;
   background-color: rgb(254, 254, 254);
   border-radius: 20px;
   padding: 10px;
@@ -31,6 +39,7 @@ header{
   border-radius: 20px;
   padding: 2px 15px;
   border: 2px solid rgb(255, 255, 255);
+  left: 250px;
 }
 
 nav{
@@ -40,6 +49,7 @@ nav{
 
 .item-a{
   display: inline-block;
+  margin: 5px;
 }
 
 .opcion{
@@ -47,4 +57,7 @@ nav{
   font-weight: bold;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  text-transform: uppercase;
 }
+
+/*noticias*/
