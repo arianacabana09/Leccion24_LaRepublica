@@ -1,20 +1,49 @@
 body{
+  font-family: Roboto, serif;
   margin: 0;
   padding: 0;
 }
 
 header{
-  display: inline-block;
   position:fixed;
   background-color: rgb(241, 19, 19);
   width: 100%;
+  text-align: center;
 }
 
-li{
+.logo-box, .redes, .buscar{
+  display: inline-block;
+  position: relative;
+  left: -100px;
+}
+
+.item-i{
   display: inline-block;
   background-color: rgb(254, 254, 254);
   border-radius: 20px;
   padding: 10px;
   color: rgb(224, 24, 24);
   font-size: 21px;
+}
+
+.buscar{
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 2px 15px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+nav{
+  background-color: rgb(99, 98, 98);
+  height: 50px;
+}
+
+.item-a{
+  display: inline-block;
+}
+
+.opcion{
+  font-size: 21px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
