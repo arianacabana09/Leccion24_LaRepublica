@@ -43,7 +43,8 @@ nav{
 }
 
 .opcion{
-  font-size: 21px;
+  font-size: 14px;
+  font-weight: bold;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
